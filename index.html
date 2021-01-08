@@ -3,28 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
     <style>
         body {
             background-color: gray;
             width: 100%;
         }
-        #image-div {
-            width: 500%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #EEEEEE;
-        }
+        
 
-        #image {
-            max-width: 100%;
-            background-color: #EEEEEE;
-        }
-        body{
-            text-align: center;
-        }
-        h3 {
+        #img-div #image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+        width: 80%;
+        max-width: 90%;
+      }
+
+      #img-caption {
+          text-align: center;
+      }
+       
+       h3 {
             text-align: center;
             background-color: gray;
             color: white;
@@ -46,16 +47,18 @@
             
         }
         main{
-            width:80%;
+            width:90%;
             margin:auto;
             background-color:beige;
         }
         p{
             margin-top: 20px;
+            text-align: center;
         }
         h2{
             font-size:2.5rem;
             padding-top: 20px;
+            text-align: center;
         }
 
         #tribute {
@@ -68,12 +71,11 @@
     <main id="main">
         <h2 id="title">Dr. Norman Borlaug</h2>
         <p>The man who saved a billion lives</p>
-        <div id="id-imgdiv">
+        <div id="img-div">
             <img id="image" src="https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg" alt="">
-            <p id="img-caption">Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.</p>
-            
+         <br><figcaption id="img-caption">Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.</figcaption></br>          
         </div>
-        <div id="tribute-info">
+       <div id="tribute-info">
             <h3>Here's a time line of Dr. Borlaug's life:</h3>
             <ul id="ordered-list">
                 <li><strong>1914</strong>  - Born in Cresco, Iowa</li>
@@ -96,5 +98,8 @@
         </div>
         
     </main>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script  src="js/index.js"></script>
 </body>
 </html>
