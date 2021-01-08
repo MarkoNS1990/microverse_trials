@@ -7,26 +7,62 @@
     <style>
         #image-div {
             width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         #image {
-            max-width: 100%
+            max-width: 70%
         }
+        body{
+            text-align: center;
+        }
+        ul{
+            text-align:left;
+            list-style-type: none;
+        }
+        li{
+            margin-bottom: 20px;
+            padding-left:40px;
+            
+        }
+        main{
+            width:80%;
+            margin:auto;
+            background-color:beige;
+        }
+        p{
+            margin-top: 20px;
+        }
+        h2{
+            font-size:2.5rem;
+            padding-top: 20px;
+        }
+
     </style>
 </head>
 <body>
     <main id="main">
         <h2 id="title">Dr. Norman Borlaug</h2>
+        <p>The man who saved a billion lives</p>
         <div id="id-imgdiv">
             <img id="image" src="https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg" alt="">
             <p id="img-caption">Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.</p>
             
         </div>
         <div id="tribute-info">
-
+            <ul id="ordered-list">
+                <li><strong>1914</strong>  - Born in Cresco, Iowa</li>
+                <li><strong>1935</strong> - Has to stop school and save up more money. Works in the Civilian Conservation Corps, helping starving Americans. "I saw how food changed them", he said. "All of this left scars on me."</li>
+                <li><strong>1937</strong> - Finishes university and takes a job in the US Forestry Service</li>
+                <li><strong>1938</strong> - Marries wife of 69 years Margret Gibson. Gets laid off due to budget cuts. Inspired by Elvin Charles Stakman, he returns to school study under Stakman, who teaches him about breeding pest-resistent plants.</li>
+                <li><strong>1942</strong> - Receives a Ph.D. in Genetics and Plant Pathology</li>
+                <li><strong>1970</strong> - receives the Nobel Peace Prize</li>
+            </ul>
         </div>
         <a id="tribute-link" href="https://en.wikipedia.org/wiki/Norman_Borlaug
-        " target="_blank"></a>
+        " target="_blank">Wikipedia Link</a>
     </main>
 </body>
 </html>
