@@ -5,26 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #image-div {
+        body {
+            background-color: gray;
             width: 100%;
+        }
+        #image-div {
+            width: 500%;
             display: flex;
             align-items: center;
             justify-content: center;
+            background-color: #EEEEEE;
         }
 
         #image {
-            max-width: 70%
+            max-width: 100%;
+            background-color: #EEEEEE;
         }
         body{
             text-align: center;
         }
+        h3 {
+            text-align: center;
+            background-color: gray;
+            color: white;
+            padding:5px;
+        }
         ul{
             text-align:left;
             list-style-type: none;
+            background-color: gray;
+            padding: 30px;
         }
         li{
             margin-bottom: 20px;
-            padding-left:40px;
+            margin-top: 40px;
+            padding-left:200px;
+            padding-right: 150px;
+            color: white;
+            font-size: 1em;
             
         }
         main{
@@ -40,6 +58,10 @@
             padding-top: 20px;
         }
 
+        #tribute {
+            padding: 5px;
+            margin: 0 auto;
+        }
     </style>
 </head>
 <body>
@@ -52,7 +74,14 @@
             
         </div>
         <div id="tribute-info">
+            <h3>Here's a time line of Dr. Borlaug's life:</h3>
             <ul id="ordered-list">
+                <li><strong>1914</strong>  - Born in Cresco, Iowa</li>
+                <li><strong>1935</strong> - Has to stop school and save up more money. Works in the Civilian Conservation Corps, helping starving Americans. "I saw how food changed them", he said. "All of this left scars on me."</li>
+                <li><strong>1937</strong> - Finishes university and takes a job in the US Forestry Service</li>
+                <li><strong>1938</strong> - Marries wife of 69 years Margret Gibson. Gets laid off due to budget cuts. Inspired by Elvin Charles Stakman, he returns to school study under Stakman, who teaches him about breeding pest-resistent plants.</li>
+                <li><strong>1942</strong> - Receives a Ph.D. in Genetics and Plant Pathology</li>
+                <li><strong>1970</strong> - receives the Nobel Peace Prize</li>
                 <li><strong>1914</strong>  - Born in Cresco, Iowa</li>
                 <li><strong>1935</strong> - Has to stop school and save up more money. Works in the Civilian Conservation Corps, helping starving Americans. "I saw how food changed them", he said. "All of this left scars on me."</li>
                 <li><strong>1937</strong> - Finishes university and takes a job in the US Forestry Service</li>
@@ -61,8 +90,11 @@
                 <li><strong>1970</strong> - receives the Nobel Peace Prize</li>
             </ul>
         </div>
-        <a id="tribute-link" href="https://en.wikipedia.org/wiki/Norman_Borlaug
-        " target="_blank">Wikipedia Link</a>
+        <div id="tribute">
+          <p>If you have time, you should read more about this incredible human being on his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Norman_Borlaug
+        " target="_blank">Wikipedia Link</a> </p> 
+        </div>
+        
     </main>
 </body>
 </html>
